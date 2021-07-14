@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    background-repeat: no-repeat;
+
+
+}
+
+#p1 {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#img1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.menu {
+    position: absolute;
+    list-style: none;
+    top: 10px;
+    right: 30px;
+    z-index: 10p;
+}
+
+.list {
+    padding-top: 10px;
+    padding-botom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    float: left;
+    font-family: 'Mate SC', serif;
+    font-size: 20px;
+
+}
+
+.list:hover {
+    background-color: dodgerblue;
+}
+
+#Stadiums {
+    background: linear-gradient(#2399d8 0%, #16d787 100%);
+}
+
+#teams {
+    background: linear-gradient(#cd6dc8 0%, #8139c8 100%);
+}
+
+#welcome {
+    background: linear-gradient(#d55019 0%, #d61824 100%);
+}
+
+#history {
+    background: linear-gradient(#73d618 0%, #18d682 100%);
+}
+
+#stats {
+    background: linear-gradient(#d5d51c 0%, #9cd61c 100%);
+}
+
+#FP {
+    background: linear-gradient(#2aa7a8 0%, #2aa87c 100%);
+}
